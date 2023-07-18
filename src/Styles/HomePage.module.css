@@ -1,0 +1,41 @@
+.searchdiv{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchBox{
+    width: 35%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title{
+    border-radius: 20px;
+    align-items: left;
+    /* width: 70%; */
+    height: 20%;
+    padding: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.icon{
+    font-size:x-large;
+    cursor: pointer;
+}
+.grid-main{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid gray;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
